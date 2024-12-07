@@ -20,7 +20,7 @@
             <div class="item">
                 <div class="main-slider-one__item">
                     <div class="main-slider-one__bg"
-                        style="background-image: url({{ asset('/') }}website/assets/images/backgrounds/hero-image1-1.jpg);">
+                        style="background-image: url({{ asset('/') }}website/assets/images/backgrounds/hero-image-10.jpg);">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -45,7 +45,7 @@
             <div class="item">
                 <div class="main-slider-one__item">
                     <div class="main-slider-one__bg"
-                        style="background-image: url({{ asset('/') }}website/assets/images/backgrounds/hero-image1-2.jpg);">
+                        style="background-image: url({{ asset('/') }}website/assets/images/backgrounds/hero-image11.jpg);">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -66,7 +66,7 @@
         </div>
     </section>
     <!-- main-slider-end -->
-    <!-- Feature Start -->
+    {{-- <!-- Feature Start -->
     <section class="feature-one">
         <div class="container">
             <div class="row feature-one__row">
@@ -113,15 +113,15 @@
             </div>
         </div>
     </section>
-    <!-- Feature End -->
-    <section class="about-one" id="about">
+    <!-- Feature End --> --}}
+    <section class="about-one py-5" id="about">
         <div class="container">
             <div class="sec-title">
 
 
                 <span class="sec-title__tagline">Why Should Choose Us</span><!-- /.sec-title__tagline -->
 
-                <h2 class="sec-title__title">We Provide Quality Home <br> Wallpaper Solution</h2>
+                <h2 class="sec-title__title">About Us</h2>
                 <!-- /.sec-title__title -->
 
             </div><!-- /.sec-title -->
@@ -130,20 +130,14 @@
                     <div class="about-one__content">
                         <div class="about-one__content__col">
                             <h3 class="about-one__content__titel">Quality Wallpaper Solution</h3>
-                            <p class="about-one__content__text">There are many variations of passages of lorem
-                                wallpaperIpsum available, but the majority have suffered alteration in some form
-                                odio dignissimos ducimus. Quis autem vel eum iure reprehenderit
-                                qui in ea voluptate velit esse</p>
+                            <p class="about-one__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                                qui aliquid perspiciatis deserunt temporibus fuga id ab rem dolorem hic?</p>
+                            <li>Lorem, ipsum dolor sit amet</li>
+                            <li>Lorem, ipsum dolor sit amet</li>
+                            <li>Lorem, ipsum dolor sit amet</li>
+                            <li>Lorem, ipsum dolor sit amet</li>
                         </div>
 
-                        <div class="about-one__content__col">
-                            <h3 class="about-one__content__titel">Unique Wall Designs</h3>
-                            <p class="about-one__content__text">This esteemed level of status is only possible by
-                                the
-                                consistent implementation of the highest possible standards of service vero eos et
-                                accusamus et iusto odio</p>
-                        </div>
-                        <a href="about.html" class="wallpi-btn about-one--btn"><span>Explore more</span></a>
                     </div>
                 </div><!-- /.col-lg-6 -->
 
@@ -151,7 +145,7 @@
                     <div class="about-one__image wow fadeInLeft" data-wow-delay="300ms">
                         <div class="about-one__image__wrap">
                             <img class="about-one__image__wrap__main"
-                                src="{{ asset('/') }}website/assets/images/resources/about1-1.jpg" alt="wallpi">
+                                src="{{ asset('/') }}website/assets/images/resources/about10.jpg" alt="wallpi">
                             <div class="about-one__image__wrap__inner_wrap">
                                 <div class="about-one__image__wrap__inner_mx">
                                     <img class="about-one__image__wrap__inner_img"
@@ -160,10 +154,10 @@
                                     <div class="about-one__image__wrap__inner_shape-top"></div>
                                     <div class="about-one__image__wrap__inner_shape-left"></div>
 
-                                    <div class="about-one__image__wrap__circle">
+                                    {{-- <div class="about-one__image__wrap__circle">
                                         <img src="{{ asset('/') }}website/assets/images/shapes/about-icon1-1.png"
                                             alt="wallpi">
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -187,17 +181,15 @@
 
                             <span class="sec-title__tagline">Our Services</span><!-- /.sec-title__tagline -->
 
-                            <h2 class="sec-title__title">Services That <br> We Provide</h2>
+                            <h2 class="sec-title__title">Services</h2>
                             <!-- /.sec-title__title -->
 
                         </div><!-- /.sec-title -->
-                        <div class="service-one__sec-info-wrap">
-                            <p class="service-one__sec-info-text">There are many variations of passages of lorem
-                                Ipsum available but the majority have suffered alteration in some form best
-                                wallpaper solution for your home</p>
+                        {{-- <div class="service-one__sec-info-wrap">
+                            <p class="service-one__sec-info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A qui aliquid perspiciatis deserunt temporibus fuga id ab rem dolorem hic?</p>
                             <a href="services.html" class="wallpi-btn service-one--btn"><span>Explore
                                     more</span></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -208,15 +200,14 @@
                         <div class="service-one__item__image">
                             <img src="{{ asset('/') }}website/assets/images/resources/services1-1.jpg" alt="services">
                             <div class="service-one__item__icon">
-                                <i class="icon-varnish"></i>
+                                <h5 class=" text-white text-center">TK: 5000</h5>
                             </div><!-- /.service-icon -->
                         </div>
 
                         <div class="service-one__item__info">
-                            <a class="sercives-arrow-right" href="services-wall-painting.html"><i
-                                    class="icon-arrow-small-right"></i></a>
+                            <a class="sercives-arrow-right" href="#"><i class="icon-arrow-small-right"></i></a>
                             <h4 class="service-one__item__title">
-                                <a href="services-wall-painting.html">Wall Paintings</a>
+                                <a href="#">Wall Paintings</a>
                             </h4><!-- /.service-title -->
                             <p class="service-one__item__text">Explore our print solutions & services</p>
                         </div>
@@ -228,15 +219,14 @@
                         <div class="service-one__item__image">
                             <img src="{{ asset('/') }}website/assets/images/resources/services1-2.jpg" alt="services">
                             <div class="service-one__item__icon">
-                                <i class="icon-wallpaper-3"></i>
+                                <h5 class=" text-white text-center">TK: 10000</h5>
                             </div><!-- /.service-icon -->
                         </div>
 
                         <div class="service-one__item__info">
-                            <a class="sercives-arrow-right" href="services-room-wallpaper.html"><i
-                                    class="icon-arrow-small-right"></i></a>
+                            <a class="sercives-arrow-right" href="#"><i class="icon-arrow-small-right"></i></a>
                             <h4 class="service-one__item__title">
-                                <a href="services-room-wallpaper.html">Room Wallpapers</a>
+                                <a href="#">Room Wallpapers</a>
                             </h4><!-- /.service-title -->
                             <p class="service-one__item__text">Explore our print solutions & services</p>
                         </div>
@@ -248,15 +238,14 @@
                         <div class="service-one__item__image">
                             <img src="{{ asset('/') }}website/assets/images/resources/services1-3.jpg" alt="services">
                             <div class="service-one__item__icon">
-                                <i class="icon-interior-design"></i>
+                                <h5 class=" text-white text-center">TK: 15000</h5>
                             </div><!-- /.service-icon -->
                         </div>
 
                         <div class="service-one__item__info">
-                            <a class="sercives-arrow-right" href="services-interior-design.html"><i
-                                    class="icon-arrow-small-right"></i></a>
+                            <a class="sercives-arrow-right" href="#"><i class="icon-arrow-small-right"></i></a>
                             <h4 class="service-one__item__title">
-                                <a href="services-interior-design.html">Interior Designing</a>
+                                <a href="#">Interior Designing</a>
                             </h4><!-- /.service-title -->
                             <p class="service-one__item__text">Explore our print solutions & services</p>
                         </div>
@@ -268,15 +257,14 @@
                         <div class="service-one__item__image">
                             <img src="{{ asset('/') }}website/assets/images/resources/services1-4.jpg" alt="services">
                             <div class="service-one__item__icon">
-                                <i class="icon-wallpaper-2"></i>
+                                <h5 class=" text-white text-center">TK: 2000</h5>
                             </div><!-- /.service-icon -->
                         </div>
 
                         <div class="service-one__item__info">
-                            <a class="sercives-arrow-right" href="services-details.html"><i
-                                    class="icon-arrow-small-right"></i></a>
+                            <a class="sercives-arrow-right" href="#"><i class="icon-arrow-small-right"></i></a>
                             <h4 class="service-one__item__title">
-                                <a href="services-details.html">Digital Foiling</a>
+                                <a href="#">Digital Foiling</a>
                             </h4><!-- /.service-title -->
                             <p class="service-one__item__text">Explore our print solutions & services</p>
                         </div>
@@ -303,12 +291,11 @@
                         <div class="sec-title">
 
 
-                            <h2 class="sec-title__title">Leading Provider of interior Service In London</h2>
+                            <h2 class="sec-title__title">Leading Provider of interior Service In Bangladesh</h2>
                             <!-- /.sec-title__title -->
 
-                            <p class="sec-title__text">There are many variations of passages of lorem wallpaper
-                                Ipsum available, but the majority have suffered alteration in some form odio
-                                dignissimos ducimus qui blanditiis</p><!-- /.sec-title__text -->
+                            <p class="sec-title__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus
+                                ex nam impedit sapiente quae sed rem placeat corporis ipsum.</p><!-- /.sec-title__text -->
 
                         </div><!-- /.sec-title -->
 
@@ -344,22 +331,6 @@
         </div>
     </section><!-- /.services-feedback-one -->
 
-    <section class="services-client-one">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="services-client-one__wrap d-flex align-items-center justify-content-sm-between">
-                        <div class="services-client-one__image">
-                            <img src="{{ asset('/') }}website/assets/images/resources/feature1-2.jpg" alt="">
-                        </div>
-                        <h4 class="services-client-one__title">We’re Trusted by More then 8800 Clients</h4>
-                        <a href="services.html" class="wallpi-btn services-client--btn"><span>Explore
-                                more</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- /.services-client-one -->
 
     <section class="project-one" id="portfolio">
         <div class="container-fluid">
@@ -898,7 +869,7 @@
         </div><!-- /.container -->
     </section><!-- /.testimonials-one -->
 
-    <section class="consultation-one">
+    <section class="consultation-one" id="blog">
         <div class="consultation-one__bg"
             style="background-image: url('{{ asset('/') }}website/assets/images/shapes/consultation-shape1-1.png');">
         </div>
@@ -933,7 +904,7 @@
                             <div class="sec-title">
 
 
-                                <h2 class="sec-title__title">Get A Free Consultation</h2>
+                                <h2 class="sec-title__title">Get free Contact Us</h2>
                                 <!-- /.sec-title__title -->
 
                                 <p class="sec-title__text">There are many variations of passages of lorem Ipsum
@@ -961,7 +932,7 @@
 
                                     <div class="consultation-one__contentwrap__content__btn-box">
                                         <button type="submit" class="wallpi-btn wallpi-btn--submit"><span>Send
-                                                Request</span></button>
+                                            </span></button>
                                     </div>
                                 </div>
                             </div>
@@ -970,8 +941,8 @@
                     <div class="consultation-one__contentwrap__call">
                         <div class="consultation-one__contentwrap__inner">
                             <i class="icon-phone-call"></i>
-                            <p class="consultation-one__contentwrap__telnumber">Call Anytime <a href="tel:+88(000)-4612">+
-                                    88 (000) - 4612</a></p>
+                            <p class="consultation-one__contentwrap__telnumber">Call Anytime <a href="">+
+                                    {{ $company_front->contact_phone }}</a></p>
                         </div>
                     </div>
                 </div>
@@ -979,237 +950,12 @@
         </div>
     </section><!-- /.consultation-one -->
 
-    <section class="blog-one" id="blog">
+    {{-- <section class="blog-one" id="blog">
         <div class="blog-one__bg"
             style="background-image: url('{{ asset('/') }}website/assets/images/backgrounds/blog-bg1-1.jpg');">
         </div>
-        <div class="container">
-            <div class="sec-title">
 
+    </section><!-- /.blog-one blog-one--page --> --}}
 
-                <span class="sec-title__tagline">Our Blog Post</span><!-- /.sec-title__tagline -->
-
-                <h2 class="sec-title__title">News & Articles</h2><!-- /.sec-title__title -->
-
-            </div><!-- /.sec-title -->
-            <div class="blog-one__carousel wallpi-owl__carousel wallpi-owl__carousel--with-shadow wallpi-owl__carousel--basic-nav owl-carousel owl-theme"
-                data-owl-options='{
-			"items": 1,
-			"margin": 30,
-			"loop": true,
-			"smartSpeed": 700,
-			"nav": false,
-			"navText": "",
-			"dots": false,
-			"autoplay": false,
-			"responsive": {
-				"0": {
-					"items": 1,
-					"dots": true
-				},
-				"768": {
-					"items": 2,
-					"dots": false
-				},
-				"992": {
-					"items": 3
-				}
-			}
-		}'>
-                <div class="item">
-                    <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
-                        <div class="blog-card__image">
-                            <img src="{{ asset('/') }}website/assets/images/blog/blog-post1-1.jpg"
-                                alt="Creating a Purpose-Driven Tech Culture at Chase">
-                            <a href="blog-details.html" class="blog-card__image__link"></a>
-                        </div><!-- /.blog-card__image -->
-
-                        <div class="blog-card__content">
-                            <span class="blog-card__tagtext">Printing</span>
-                            <h5 class="blog-card__title"><a href="blog-details.html">Creating a Purpose-Driven
-                                    Tech Culture at Chase</a></h5><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-user1"></i>
-                                        By Admin
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-comment-outline"></i>
-                                        10 Comments</a>
-                                </li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.item -->
-                <div class="item">
-                    <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
-                        <div class="blog-card__image">
-                            <img src="{{ asset('/') }}website/assets/images/blog/blog-post1-2.jpg"
-                                alt="At Vero Eos Et Accusamus  Et Iusto Odio Dignissimos">
-                            <a href="blog-details.html" class="blog-card__image__link"></a>
-                        </div><!-- /.blog-card__image -->
-
-                        <div class="blog-card__content">
-                            <span class="blog-card__tagtext">Wallpaper</span>
-                            <h5 class="blog-card__title"><a href="blog-details.html">At Vero Eos Et Accusamus Et
-                                    Iusto Odio Dignissimos</a></h5><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-user1"></i>
-                                        By Admin
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-comment-outline"></i>
-                                        10 Comments</a>
-                                </li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.item -->
-                <div class="item">
-                    <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-                        <div class="blog-card__image">
-                            <img src="{{ asset('/') }}website/assets/images/blog/blog-post1-3.jpg"
-                                alt="Nemo Enim Ipsam Volu Tatem Quia Voluptas">
-                            <a href="blog-details.html" class="blog-card__image__link"></a>
-                        </div><!-- /.blog-card__image -->
-
-                        <div class="blog-card__content">
-                            <span class="blog-card__tagtext">Design</span>
-                            <h5 class="blog-card__title"><a href="blog-details.html">Nemo Enim Ipsam Volu Tatem
-                                    Quia Voluptas</a></h5><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-user1"></i>
-                                        By Admin
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-comment-outline"></i>
-                                        10 Comments</a>
-                                </li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.item -->
-                <div class="item">
-                    <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='300ms'>
-                        <div class="blog-card__image">
-                            <img src="{{ asset('/') }}website/assets/images/blog/blog-post1-1.jpg"
-                                alt="Creating a Purpose-Driven Tech Culture at Chase">
-                            <a href="blog-details.html" class="blog-card__image__link"></a>
-                        </div><!-- /.blog-card__image -->
-
-                        <div class="blog-card__content">
-                            <span class="blog-card__tagtext">Printing</span>
-                            <h5 class="blog-card__title"><a href="blog-details.html">Creating a Purpose-Driven
-                                    Tech Culture at Chase</a></h5><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-user1"></i>
-                                        By Admin
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-comment-outline"></i>
-                                        10 Comments</a>
-                                </li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.item -->
-                <div class="item">
-                    <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='400ms'>
-                        <div class="blog-card__image">
-                            <img src="{{ asset('/') }}website/assets/images/blog/blog-post1-2.jpg"
-                                alt="At Vero Eos Et Accusamus  Et Iusto Odio Dignissimos">
-                            <a href="blog-details.html" class="blog-card__image__link"></a>
-                        </div><!-- /.blog-card__image -->
-
-                        <div class="blog-card__content">
-                            <span class="blog-card__tagtext">Wallpaper</span>
-                            <h5 class="blog-card__title"><a href="blog-details.html">At Vero Eos Et Accusamus Et
-                                    Iusto Odio Dignissimos</a></h5><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-user1"></i>
-                                        By Admin
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-comment-outline"></i>
-                                        10 Comments</a>
-                                </li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.item -->
-                <div class="item">
-                    <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='500ms'>
-                        <div class="blog-card__image">
-                            <img src="{{ asset('/') }}website/assets/images/blog/blog-post1-3.jpg"
-                                alt="Nemo Enim Ipsam Volu Tatem Quia Voluptas">
-                            <a href="blog-details.html" class="blog-card__image__link"></a>
-                        </div><!-- /.blog-card__image -->
-
-                        <div class="blog-card__content">
-                            <span class="blog-card__tagtext">Design</span>
-                            <h5 class="blog-card__title"><a href="blog-details.html">Nemo Enim Ipsam Volu Tatem
-                                    Quia Voluptas</a></h5><!-- /.blog-card__title -->
-                            <ul class="list-unstyled blog-card__meta">
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-user1"></i>
-                                        By Admin
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icon-comment-outline"></i>
-                                        10 Comments</a>
-                                </li>
-                            </ul><!-- /.list-unstyled blog-card__meta -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.item -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.blog-one blog-one--page -->
-
-    <section class="quick-support">
-        <div class="container">
-            <div class="quick-support__wrapper">
-                <div class="row quick-support__row">
-                    <div class="quick-support__call">
-                        <div class="quick-support__wrap d-flex align-items-center">
-                            <i class="icon-phone-call quick-support__icon"></i>
-                            <div class="quick-support__help">
-                                <p class="quick-support__help__text">Helpline and Support</p>
-                                <a class="quick-support__help__number" href="tel:+8805002451">+88 05 00 24 51</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="quick-support__reauest d-flex align-items-center justify-content-between">
-                        <h3 class="quick-support__title">Please Contact Us And We’ll <br>
-                            Do Our Best To Help.</h3>
-                        <a href="contact.html" class="wallpi-btn wallpi-btn--request"><span>Request Now</span></a>
-                    </div>
-                </div>
-            </div>
-        </div><!-- /.container -->
-    </section><!-- /.quick-support -->
 
 @endsection
