@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 05, 2024 at 12:54 PM
+-- Generation Time: Dec 07, 2024 at 12:48 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -147,8 +147,8 @@ CREATE TABLE `cache` (
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
 ('0715fa6687770655dd7c214ac0df2479', 'i:1;', 1725432718),
 ('0715fa6687770655dd7c214ac0df2479:timer', 'i:1725432718;', 1725432718),
-('c525a5357e97fef8d3db25841c86da1a', 'i:1;', 1733387859),
-('c525a5357e97fef8d3db25841c86da1a:timer', 'i:1733387859;', 1733387859),
+('c525a5357e97fef8d3db25841c86da1a', 'i:1;', 1733547317),
+('c525a5357e97fef8d3db25841c86da1a:timer', 'i:1733547317;', 1733547317),
 ('eef95f658febcee12b41ea8ec1bace29', 'i:1;', 1733224463),
 ('eef95f658febcee12b41ea8ec1bace29:timer', 'i:1733224463;', 1733224463);
 
@@ -252,7 +252,7 @@ CREATE TABLE `companies` (
 --
 
 INSERT INTO `companies` (`id`, `company_name`, `slogan`, `contact_phone`, `support_phone`, `contact_email`, `support_email`, `office_hour`, `facebook_link`, `twitter_link`, `linkedin_link`, `youtube_link`, `instagram_link`, `google_map_api_link`, `android_app_image`, `android_app_url`, `ios_app_image`, `ios_app_url`, `company_address`, `company_footer_text`, `company_footer_text_bottom`, `logo_jpg`, `logo_png`, `favicon`, `title`, `payment_method_image`, `created_at`, `updated_at`) VALUES
-(1, 'Netfix', 'This is slogan our it Senter', '01303863702', '01540400851', 'netfix@gmail.com', 'support@netfix.com', '10 am to 5pm', 'https://www.facebook.com/', 'https://www.twitter.com/', 'https://www.linkedin.com/', 'https://www.youtube.com/', 'https://www.instagram.com/', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7303.701719111753!2d90.38981394265086!3d23.75269721467507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8983f79fa27%3A0xeddafd73d038bc2f!2sKawran%20Bazar%2C%20Dhaka%201215!5e0!3m2!1sen!2sbd!4v1723017037535!5m2!1sen!2sbd', 'uploads/company-image/33033045.jpg', NULL, 'uploads/company-image/26510247.jpg', NULL, 'Nikonjo', NULL, NULL, 'uploads/company-image/49020543.png', 'uploads/company-image/29762550.png', 'uploads/company-image/21921129.jpg', 'We Deal With Aspects Professional IT Services', 'uploads/company-image/4352834.jpg', '2024-08-07 01:12:17', '2024-12-03 23:20:58');
+(1, 'GN Interior', 'GN Interior', '01927370000', '01927370000', 'info@gninterior.com', 'support@gninterior.com', '10 am to 5pm', 'https://www.facebook.com/', 'https://www.twitter.com/', 'https://www.linkedin.com/', 'https://www.youtube.com/', 'https://www.instagram.com/', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7303.701719111753!2d90.38981394265086!3d23.75269721467507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8983f79fa27%3A0xeddafd73d038bc2f!2sKawran%20Bazar%2C%20Dhaka%201215!5e0!3m2!1sen!2sbd!4v1723017037535!5m2!1sen!2sbd', 'uploads/company-image/33033045.jpg', NULL, 'uploads/company-image/26510247.jpg', NULL, '337, DIT Road(2nd floor) West Rampura, 1219 Dhaka, Dhaka Division, Bangladesh', NULL, NULL, 'uploads/company-image/23424247.png', 'uploads/company-image/17091347.png', 'uploads/company-image/39929752.png', 'GN Interior', 'uploads/company-image/709704.png', '2024-08-07 01:12:17', '2024-12-06 23:32:48');
 
 -- --------------------------------------------------------
 
@@ -262,21 +262,15 @@ INSERT INTO `companies` (`id`, `company_name`, `slogan`, `contact_phone`, `suppo
 
 CREATE TABLE `consultations` (
   `id` bigint(20) UNSIGNED NOT NULL,
-  `service_id` int(11) NOT NULL,
+  `package_id` int(11) DEFAULT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) DEFAULT NULL,
   `mobile` varchar(255) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
   `message` text DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `consultations`
---
-
-INSERT INTO `consultations` (`id`, `service_id`, `name`, `email`, `mobile`, `message`, `created_at`, `updated_at`) VALUES
-(2, 1, 'Tariqul Islam', 'shimul@gmail.com', '01303863704', 'This is message', '2024-08-29 06:32:13', '2024-08-29 06:32:13');
 
 -- --------------------------------------------------------
 
@@ -711,10 +705,9 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('j6xTM2JT6xqFzgJmHWUFHU8BvInr2cgRsM5LkNJ2', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YToyOntzOjY6Il90b2tlbiI7czo0MDoibk4zU1BWcEJiQjFueFZVWVJqN3lGeTNVcGd6a0wyYWNwVlJaNWdaUCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1733386545),
-('jk7st2V2r4nt2zx3Qox87RGaPpvPMu6MTwUpikfs', 4, '127.0.0.1', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiSU92bmEzQUdld0xYNXFlVFBNVE1XMFBwYjU1UFExM3FOYnRZMXFxNyI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hYm91dC92aWV3Ijt9czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjQ7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkWHc2Y29wdzlRL2FoSWV4NUxvcnk2TzJ1M0NxZm5JWVVCWFMyTWp0ZnE0aTBuY2tCOWNEVlciO30=', 1733385677),
-('mzehPXzlDHTvDzDGue6n07KNHDmgd7JnYlUHsZ6t', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YToyOntzOjY6Il90b2tlbiI7czo0MDoibHJMbE1GTjQ2N1c4YTNES1hwaVZWNzhpRGJwZm11eWluZ1V2QVNUZSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1733368500),
-('y4MZfcmPMU8SUEHtks6HEOLxvPMGJC7OAmW8K9fe', 4, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiMERRZk9KRXQ3d3ROWm9mc0h4bWtJQjJwMGl4SnU3WFlFWGE1MHdxNSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9zZXJ2aWNlIjt9czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjQ7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTIkWHc2Y29wdzlRL2FoSWV4NUxvcnk2TzJ1M0NxZm5JWVVCWFMyTWp0ZnE0aTBuY2tCOWNEVlciO30=', 1733399649);
+('CFSTB8yEr7mVnhpRQwtyeKA1eBWhpMg8DMrDGlHi', 4, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoic0hQT1I1NDRZeVNwMEg5VGIwNWJGNHpDS0FtUHpnRGJMUnNkdWo0eCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aTo0O3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEyJFh3NmNvcHc5US9haElleDVMb3J5Nk8ydTNDcWZuSVlVQlhTMk1qdGZxNGkwbmNrQjljRFZXIjt9', 1733553151),
+('o5gNUoN8sOx18AAOoeWb5PoOwIO0JzEFthCreiBq', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YToyOntzOjY6Il90b2tlbiI7czo0MDoiRzl5Z2s5enE3dUdmOWV5YnVFZm0wVUJFaVBtejF2YzIwdnd2OFROeCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1733544393),
+('Qpy8BbE0MN1KqzZ9n89GDrgRLO0ZG3gcXcN9XSov', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiUjA3UFYyMEx5b1BaU2lWNGNSeWxCZ2VyUnd0NDhBNFhxTU5meDhLVCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1733571116);
 
 -- --------------------------------------------------------
 
