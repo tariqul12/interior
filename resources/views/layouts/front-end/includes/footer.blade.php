@@ -8,8 +8,7 @@
                 <div class="footer-widget__col footer-widget__col--about">
                     <div class="footer-widget__col__content">
                         <a href="index.html" class="footer-widget__col__content__logo">
-                            <img src="{{ asset('/') }}website/assets/images/logo-light.png" width="170"
-                                alt="Wallpi HTML Template">
+                            <img src="{{ asset($company_front->logo_jpg) }}" width="170" alt="Wallpi HTML Template">
                         </a>
                         <p class="footer-widget__col__content__text">Over 15 years of experience we’ll ensure
                             you get the best guidance interior design</p>
@@ -91,8 +90,7 @@
     <div class="main-footer__bottom">
         <div class="container">
             <div class="main-footer__bottom__inner d-flex align-items-center justify-content-between">
-                <p class="main-footer__copyright"> &copy; <span class="dynamic-year"></span> Wallpi HTML
-                    Template All Rights Reserved</p>
+                <p class="main-footer__copyright"> &copy; <span class="dynamic-year"></span> All Rights Reserved</p>
                 <div class="main-footer__social">
                     <span class="main-footer__socialtext">Social</span>
                     <a href="https://linkedin.com/">
