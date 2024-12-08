@@ -22,19 +22,19 @@
                 </ul><!-- /.list-unstyled topbar-one__info -->
 
                 <div class="topbar-one__social">
-                    <a href="https://linkedin.com/">
+                    <a target="_blank" href="https://linkedin.com/">
                         <i class="fab fa-linkedin-in"></i>
                         <span class="sr-only">Linkedin</span>
                     </a>
-                    <a href="https://twitter.com/">
+                    <a target="_blank" href="https://twitter.com/">
                         <i class="fab fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
-                    <a href="https://facebook.com/">
+                    <a target="_blank" href="https://facebook.com/">
                         <i class="fab fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
-                    <a href="https://instagram.com/">
+                    <a target="_blank" href="https://instagram.com/">
                         <i class="fab fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>

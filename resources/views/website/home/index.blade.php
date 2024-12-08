@@ -364,8 +364,8 @@
                                     <strong class="project-one__item__text">Wallpapers</strong>
                                     <h4 class="project-one__item__heading"><a href="portfolio-details.html">Room
                                             Wallpapers</a></h4>
-                                    <p class="project-one__item__tex-info">There are many variations of passages of
-                                        lorem Ipsum available, but the majority</p>
+                                    {{-- <p class="project-one__item__tex-info">There are many variations of passages of
+                                        lorem Ipsum available, but the majority</p> --}}
                                     <a href="portfolio-details.html" class="project-one__item__right-arrow">
                                         <i class="icon-arrow-small-right"></i>
                                     </a>
@@ -397,8 +397,8 @@
                                     <strong class="project-one__item__text">ceiling wallpaper</strong>
                                     <h4 class="project-one__item__heading"><a href="portfolio-details.html">Ceiling
                                             wallpaper</a></h4>
-                                    <p class="project-one__item__tex-info">There are many variations of passages of
-                                        lorem Ipsum available, but the majority</p>
+                                    {{-- <p class="project-one__item__tex-info">There are many variations of passages of
+                                        lorem Ipsum available, but the majority</p> --}}
                                     <a href="portfolio-details.html" class="project-one__item__right-arrow">
                                         <i class="icon-arrow-small-right"></i>
                                     </a>
@@ -429,8 +429,8 @@
                                     <strong class="project-one__item__text">Interior</strong>
                                     <h4 class="project-one__item__heading"><a href="portfolio-details.html">Interior
                                             Painting</a></h4>
-                                    <p class="project-one__item__tex-info">There are many variations of passages of
-                                        lorem Ipsum available, but the majority</p>
+                                    {{-- <p class="project-one__item__tex-info">There are many variations of passages of
+                                        lorem Ipsum available, but the majority</p> --}}
                                     <a href="portfolio-details.html" class="project-one__item__right-arrow">
                                         <i class="icon-arrow-small-right"></i>
                                     </a>
@@ -461,8 +461,8 @@
                                     <strong class="project-one__item__text">Painting</strong>
                                     <h4 class="project-one__item__heading"><a href="portfolio-details.html">Wall
                                             Wallpapers</a></h4>
-                                    <p class="project-one__item__tex-info">There are many variations of passages of
-                                        lorem Ipsum available, but the majority</p>
+                                    {{-- <p class="project-one__item__tex-info">There are many variations of passages of
+                                        lorem Ipsum available, but the majority</p> --}}
                                     <a href="portfolio-details.html" class="project-one__item__right-arrow">
                                         <i class="icon-arrow-small-right"></i>
                                     </a>
@@ -536,7 +536,7 @@
 
                         <span class="sec-title__tagline">Testimonial</span><!-- /.sec-title__tagline -->
 
-                        <h2 class="sec-title__title">What Does the Customer <br> Have to Say?</h2>
+                        <h2 class="sec-title__title">What Does the Customer Say?</h2>
                         <!-- /.sec-title__title -->
 
                     </div><!-- /.sec-title -->
@@ -618,12 +618,12 @@
                             </div><!-- /.testimonials-card__content -->
                             <div class="testimonials-card__athour-wrap d-flex align-items-center">
                                 <div class="testimonials-card__image">
-                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-2.png"
-                                        alt="Forida Lara">
+                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-1.png"
+                                        alt="Robin Kaolaip">
                                 </div><!-- /.testimonials-card__image -->
 
                                 <div class="testimonials-card__athour-name">
-                                    <h5 class="testimonials-card__name"> Forida Lara</h5>
+                                    <h5 class="testimonials-card__name"> Robin Kaolaip</h5>
                                     <!-- /.testimonials-card__name -->
                                     <p class="testimonials-card__designation">Interior design, architecture</p>
                                     <!-- /.testimonials-card__designation -->
@@ -651,12 +651,12 @@
                             </div><!-- /.testimonials-card__content -->
                             <div class="testimonials-card__athour-wrap d-flex align-items-center">
                                 <div class="testimonials-card__image">
-                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-3.png"
-                                        alt="Alndo Almas">
+                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-1.png"
+                                        alt="Robin Kaolaip">
                                 </div><!-- /.testimonials-card__image -->
 
                                 <div class="testimonials-card__athour-name">
-                                    <h5 class="testimonials-card__name"> Alndo Almas</h5>
+                                    <h5 class="testimonials-card__name"> Robin Kaolaip</h5>
                                     <!-- /.testimonials-card__name -->
                                     <p class="testimonials-card__designation">Interior design, architecture</p>
                                     <!-- /.testimonials-card__designation -->
@@ -718,12 +718,12 @@
                             </div><!-- /.testimonials-card__content -->
                             <div class="testimonials-card__athour-wrap d-flex align-items-center">
                                 <div class="testimonials-card__image">
-                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-2.png"
-                                        alt="Forida Lara">
+                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-1.png"
+                                        alt="Robin Kaolaip">
                                 </div><!-- /.testimonials-card__image -->
 
                                 <div class="testimonials-card__athour-name">
-                                    <h5 class="testimonials-card__name"> Forida Lara</h5>
+                                    <h5 class="testimonials-card__name"> Robin Kaolaip</h5>
                                     <!-- /.testimonials-card__name -->
                                     <p class="testimonials-card__designation">Interior design, architecture</p>
                                     <!-- /.testimonials-card__designation -->
@@ -751,12 +751,12 @@
                             </div><!-- /.testimonials-card__content -->
                             <div class="testimonials-card__athour-wrap d-flex align-items-center">
                                 <div class="testimonials-card__image">
-                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-3.png"
-                                        alt="Alndo Almas">
+                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-1.png"
+                                        alt="Robin Kaolaip">
                                 </div><!-- /.testimonials-card__image -->
 
                                 <div class="testimonials-card__athour-name">
-                                    <h5 class="testimonials-card__name"> Alndo Almas</h5>
+                                    <h5 class="testimonials-card__name"> Robin Kaolaip</h5>
                                     <!-- /.testimonials-card__name -->
                                     <p class="testimonials-card__designation">Interior design, architecture</p>
                                     <!-- /.testimonials-card__designation -->
@@ -818,12 +818,12 @@
                             </div><!-- /.testimonials-card__content -->
                             <div class="testimonials-card__athour-wrap d-flex align-items-center">
                                 <div class="testimonials-card__image">
-                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-2.png"
-                                        alt="Forida Lara">
+                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-1.png"
+                                        alt="Robin Kaolaip">
                                 </div><!-- /.testimonials-card__image -->
 
                                 <div class="testimonials-card__athour-name">
-                                    <h5 class="testimonials-card__name"> Forida Lara</h5>
+                                    <h5 class="testimonials-card__name"> Robin Kaolaip</h5>
                                     <!-- /.testimonials-card__name -->
                                     <p class="testimonials-card__designation">Interior design, architecture</p>
                                     <!-- /.testimonials-card__designation -->
@@ -851,12 +851,12 @@
                             </div><!-- /.testimonials-card__content -->
                             <div class="testimonials-card__athour-wrap d-flex align-items-center">
                                 <div class="testimonials-card__image">
-                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-3.png"
-                                        alt="Alndo Almas">
+                                    <img src="{{ asset('/') }}website/assets/images/resources/testimonial-owner1-1.png"
+                                        alt="Robin Kaolaip">
                                 </div><!-- /.testimonials-card__image -->
 
                                 <div class="testimonials-card__athour-name">
-                                    <h5 class="testimonials-card__name"> Alndo Almas</h5>
+                                    <h5 class="testimonials-card__name"> Robin Kaolaip</h5>
                                     <!-- /.testimonials-card__name -->
                                     <p class="testimonials-card__designation">Interior design, architecture</p>
                                     <!-- /.testimonials-card__designation -->
@@ -941,7 +941,7 @@
                     <div class="consultation-one__contentwrap__call">
                         <div class="consultation-one__contentwrap__inner">
                             <i class="icon-phone-call"></i>
-                            <p class="consultation-one__contentwrap__telnumber">Call Anytime <a href="">+
+                            <p class="consultation-one__contentwrap__telnumber">Call Anytime <a href="">
                                     {{ $company_front->contact_phone }}</a></p>
                         </div>
                     </div>

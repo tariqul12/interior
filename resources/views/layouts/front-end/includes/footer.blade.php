@@ -12,10 +12,7 @@
                         </a>
                         <p class="footer-widget__col__content__text">Over 15 years of experience we’ll ensure
                             you get the best guidance interior design</p>
-                        <ul class="list-unstyled footer-widget__col__content__links">
-                            <li><a href="sercives.html">Wall Paper</a></li>
-                            <li><a href="sercives.html">Printing Design</a></li>
-                        </ul><!-- /.list-unstyled footer-widget__links -->
+
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-md-6 -->
 
@@ -36,7 +33,7 @@
 
                 <div class="footer-widget__col footer-widget__col--post">
                     <div class="footer-widget__col__content">
-                        <h5 class="footer-widget__col__content__title">Popular Post</h5>
+                        <h5 class="footer-widget__col__content__title">Services</h5>
                         <!-- /.footer-widget__title -->
                         <div class="footer-widget__col__content__post-wrap">
                             <div class="footer-widget__col__content__post-col">
@@ -45,8 +42,7 @@
                                         alt="">
                                 </div>
                                 <div class="footer-widget__col__content__post-info">
-                                    <span class="footer-widget__col__content__post-date"><i class="icon-calendar"></i>02
-                                        May 2023</span>
+
                                     <h6 class="footer-widget__col__content__post-heading"><a href="blog.html">How to
                                             Treat Grease Stains the Right Way</a></h6>
                                 </div>
@@ -58,8 +54,7 @@
                                         alt="">
                                 </div>
                                 <div class="footer-widget__col__content__post-info">
-                                    <span class="footer-widget__col__content__post-date"><i class="icon-calendar"></i>05
-                                        May 2023</span>
+
                                     <h6 class="footer-widget__col__content__post-heading"><a href="blog.html">How to
                                             Remove Limescale From Your Toilet</a></h6>
                                 </div>
@@ -93,19 +88,19 @@
                 <p class="main-footer__copyright"> &copy; <span class="dynamic-year"></span> All Rights Reserved</p>
                 <div class="main-footer__social">
                     <span class="main-footer__socialtext">Social</span>
-                    <a href="https://linkedin.com/">
+                    <a target="_blank" href="https://linkedin.com/">
                         <i class="fab fa-linkedin-in"></i>
                         <span class="sr-only">Linkedin</span>
                     </a>
-                    <a href="https://twitter.com/">
+                    <a target="_blank" href="https://twitter.com/">
                         <i class="fab fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
-                    <a href="https://facebook.com/">
+                    <a target="_blank" href="https://facebook.com/">
                         <i class="fab fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
-                    <a href="https://instagram.com/">
+                    <a target="_blank" href="https://instagram.com/">
                         <i class="fab fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>

@@ -9898,7 +9898,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .mobile-nav__content {
     width: 300px;
-    background-color: var(--wallpi-black2, #4a3626);
+    background-color: #171411;
     z-index: 10;
     position: relative;
     height: 100%;
@@ -13231,7 +13231,7 @@ body.megamenu-popup-active .mobile-nav__content {
     left: 0;
     top: 24px;
     z-index: 1;
-    background-image: url("../images/shapes/feedback-shape1-11.png");
+    background-image: url("../images/shapes/feedback-shape1-11.pn");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 101% auto;
@@ -14456,10 +14456,10 @@ body.boxed-wrapper .main-slider-one__carousel.owl-carousel .owl-nav {
     visibility: visible;
 }
 .project-one__item__bg.hover--bg {
-    background-image: url("../images/shapes/project-overlay-bg1-1.png");
+    /* background-image: url("../images/shapes/project-overlay-bg1-1.png"); */
     background-repeat: repeat-y;
     background-size: 100% 100%;
-    background-color: transparent;
+    background-color: black;
     padding: 36px 96px 28px 22px;
     opacity: 0;
     visibility: hidden;
@@ -14907,7 +14907,7 @@ body.boxed-wrapper .main-slider-one__carousel.owl-carousel .owl-nav {
     top: 0;
     right: 0;
     z-index: 1;
-    background-image: url("../images/shapes/consultation-shape1-2.png");
+    /* background-image: url("../images/shapes/consultation-shape1-2.png"); */
     background-repeat: no-repeat;
     background-position: right top;
     background-size: auto 100%;

@@ -52,8 +52,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image"
-            style="background-image: url({{ asset('/') }}website/assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url({{ asset($company_front->favicon) }});"></div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -72,9 +71,8 @@
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img
-                        src="{{ asset('/') }}website/assets/images/logo-light.png" width="155"
-                        alt="" /></a>
+                <a href="{{ route('home') }}" aria-label="logo image"><img src="{{ asset($company_front->logo_jpg) }}"
+                        width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -83,11 +81,11 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fas fa-phone-alt"></i>
-                    <a href="mailto:Support@wallpi.com">Support@gmail.com</a>
+                    <a href="mailto:{{ $company_front->support_email }}">{{ $company_front->support_email }}</a>
                 </li>
                 <li>
                     <i class="icon-chat"></i>
-                    <a href="tel:+8805002451">+88 05 00 24 51</a>
+                    <a href="tel:{{ $company_front->contact_phone }}">{{ $company_front->contact_phone }}</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">
